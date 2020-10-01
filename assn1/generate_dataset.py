@@ -19,7 +19,7 @@ def make_txt(x, y, name, split, dir):
 
 def args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--noise', type=float, default=0.2)
+    parser.add_argument('--noise', type=float, default=0.3)
     parser.add_argument('--random_state', type=int, default=0)
     parser.add_argument('--n_samples', type=int, default=1000)
     parser.add_argument('--save_dir', type=str, default='./')
